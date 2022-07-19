@@ -387,9 +387,10 @@ services:  # containers. same as docker run
     	
   container_name2:
 
-volumes: # Optional, same as docker volume create
-		vol_name1:
-		vol_name2:
+volumes: 
+# Optional, same as docker volume create
+	vol_name1:
+	vol_name2:
 
 networks: # Optional, same as docker network create
 ```
