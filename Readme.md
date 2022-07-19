@@ -807,7 +807,7 @@ services:
 
 
 
-## Kubernetes orchestration
+## Kubernetes Orchestration
 
 Kubernetes (k8s):  is a container orchestration, which makes many servers act like one. It provides API/CLI to manage containers across servers.
 
@@ -846,7 +846,7 @@ Kubernetes can add 3rd party resources and controllers, which extends k8s API an
 * Secrets
 * ConfigMaps
 
-<img src="https://s2.loli.net/2022/06/29/jZkz7s1g2hnPFGN.png" alt="image-20220628184203881" style="zoom:50%;" />
+<img src="https://s2.loli.net/2022/06/29/jZkz7s1g2hnPFGN.png" alt="image-20220628184203881" style="zoom:40%;" />
 
 
 
