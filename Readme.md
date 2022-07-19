@@ -388,8 +388,8 @@ services:  # containers. same as docker run
   container_name2:
 
 volumes: # Optional, same as docker volume create
-	vol_name1:
-	vol_name2:
+		vol_name1:
+		vol_name2:
 
 networks: # Optional, same as docker network create
 ```
@@ -508,7 +508,7 @@ services:
   redis:
     image: redis:alpine
     deploy:
-    	# the num of containers for this service
+    # the num of containers for this service
       replicas: 1 
       update_config:
         parallelism: 2
@@ -519,7 +519,7 @@ services:
       restart_policy:
         condition: on-failure
       placement:
-      	# set the role of node
+      # set the role of node
         constraints: [node.role == manager]
 ```
 
@@ -846,7 +846,7 @@ Kubernetes can add 3rd party resources and controllers, which extends k8s API an
 * Secrets
 * ConfigMaps
 
-<img src="https://s2.loli.net/2022/06/29/jZkz7s1g2hnPFGN.png" alt="image-20220628184203881" style="zoom:40%;" />
+<img src="https://s2.loli.net/2022/06/29/jZkz7s1g2hnPFGN.png" alt="image-20220628184203881" style="zoom:30%;" />
 
 
 
@@ -1080,7 +1080,7 @@ spec:
       app: app-nginx
   template:
     metadata:
-    	# create a label for this resource
+    # create a label for this resource
       labels:
         app: app-nginx
     spec:
